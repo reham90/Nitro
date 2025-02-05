@@ -1,0 +1,58 @@
+html[dir="ltr"] {
+    .about .para , .ques-answer{
+        line-height: 1.7;
+    }
+    .mainBanner-parent .banner-desc{
+        direction: ltr;
+        inset-inline-end: 12px;
+    }
+    .features .general-title , .list-item .item-title , .client-reviews .general-title , .banner-desc .main-title , .banner-desc .second-title{
+        line-height: 1.3;
+    }
+    .ques-text{
+        line-height: 1.35;
+    }
+    .features-cont{
+        direction: ltr;
+    }
+    .client-reviews .item .quote-text ,  .about .item .desc {
+        line-height: 1.5;
+    }
+    .download-parent{
+        width: 890px;
+    }
+    @include max-1200{
+        .download-parent{
+            width: 100%;
+        }
+    }
+    @include max-768 {
+        .about .para {
+            line-height: 1.5;
+        }
+        .about .item .title{
+            line-height: 1.4;
+        }
+        .features-cont{
+            width: 100%;
+        }
+        .ques-answer{
+            line-height: 1.6;
+        }
+        .client-reviews .general-title , .faq .general-title{
+            line-height: 1.3;
+        }
+        .download-parent .content .para , .footer-content .copyright {
+            line-height: 1.4;
+        }
+        .form-div .text{
+            line-height: 1.35;
+        }
+    }
+    .client-reviews .item .icon{
+        transform: scaleX(-1);
+    }
+  
+    
+    
+}
